@@ -1,1 +1,563 @@
 /* ここから下に記載していく */
+
+/* .navigation{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navi-list{
+    display:flex;
+font-size: 21px;
+} */
+
+* {box-sizing: border-box;}
+
+
+.navi-box {
+    display: flex;
+    justify-content: space-between;
+}
+.navi-box2 {
+    display: flex;
+    align-items: center;
+}
+
+.navi-box2 p{
+    margin: 10px;
+}
+
+.About-img{
+    display:flex;
+  
+}
+
+.About-img p{
+width: 25%;
+}
+
+.About-img p img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.About-img li{
+    margin-left: 40px;
+}
+
+.main{
+    height: 400px;
+    background-image: url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   padding-top: 150px;
+}
+
+.site-title{
+font-size: 40px;
+color: white;
+align-items: center;
+font-weight: bold;
+text-align: center;
+}
+
+.site-title2{
+font-size: 30px;
+color: white;
+text-align: center;
+margin-top: 30px;
+}
+
+
+
+h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* p {
+    line-height: initial;
+} */
+
+.About{
+    text-align: center;
+    margin: 60px;
+}
+
+.About-tit{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.About-sub{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.About-tex{
+    margin-bottom: 10px;
+}
+
+.Course{
+    text-align: center;
+    margin: 60px;
+}
+
+.Course-tit{
+    font-weight: bold;
+    color: red;
+
+}
+
+.Course-tex{
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-top: 60px;
+}
+
+
+
+/* コース１ */
+/* .Course1-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.pict img{
+    width: 100%;
+}
+
+.course1-tex{
+    padding-right: 200px;
+    padding-top: 100px;
+    margin: 10px;
+}
+
+.course1-tex2{
+    margin: 10px;
+} */
+
+/* コース１ */
+
+.Course1-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course1-img {
+    width: 50%;
+}
+
+.course1-img p img{
+    width: 100%;
+}
+
+.course1-tex{
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.course1-tex p{
+    padding-bottom: 8px;
+}
+
+
+
+
+/* コース２ */
+/* 
+.Course2-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pict2 img{
+    width: 100%;
+}
+
+.course2-tex{
+    padding-left: 200px;
+    padding-top: 100px;
+    margin: 10px;
+}
+
+.course2-tex2{
+    margin: 10px;
+} */
+/* コース２ */
+
+
+.Course2-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course2-img {
+    width: 50%;
+}
+/* .course2-img p img{
+    width: 100%;
+} */
+
+.course2-tex {
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.course2-tex p{
+    padding-bottom: 8px;
+}
+
+/* コース３ */
+
+/* .Course3-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.pict3 img{
+    width: 100%;
+}
+
+.course3-tex{
+    padding-right: 200px;
+    padding-top: 100px;
+    margin: 10px;
+}
+
+.course3-tex2{
+    margin: 10px;
+} */
+
+/* コース３ */
+
+.Course3-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course3-img {
+    width: 50%;
+}
+
+.course3-img p img{
+    width: 100%;
+}
+
+.course3-tex{
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+.course3-tex p{
+    padding-bottom: 8px;
+}
+
+
+
+
+
+.Access {
+    text-align: center;
+    margin: 60px auto;
+}
+
+/* 
+.Accese{
+    text-align: center;
+    
+} */
+
+.Access h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.sub-tit{
+    margin-bottom: 60px;
+}
+
+
+.center_iframe{
+    display: block;
+    margin: auto;
+}
+
+.Access-tex{
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+
+.more{
+    width: 300px;
+    height: 60px;
+    background: yellow;
+    margin: 60px auto;
+    transition: all 300ms 0s ease;
+}
+
+.more p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact-tit{
+    font-weight: bold;
+    margin: 50px;
+}
+
+.contact-tex{
+    margin: 10px;
+}
+
+
+.news-tit{
+    font-weight: bold;
+    color: yellow;
+    margin: 30px;
+    text-align: center;
+}
+
+.news-sub{
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+.newsList_item{
+    width: 300px;
+}
+
+.newsList{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.newsList_item-img img{
+    opacity: 1.0;
+    transition: all 0.3s;
+}
+
+.newsList_item-img img:hover{
+    opacity: 0.7;
+}
+
+
+
+/* .form{
+    text-align: center;
+    padding-top: 60px;
+    
+} */
+
+ /* .form dt{
+    width: 150px;
+    
+} 
+
+.form dd{
+    width: 550px;
+}
+.form dd input{
+    width: 100%; */
+
+/* フォーム */
+
+.form-box{
+    width: 600px;
+    margin:  0 auto;
+    padding-top: 70px;
+}
+
+.form-box dl{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+/* .form-box dd input{
+    font-size: 10px;
+} */
+
+.form-box dt{
+    width: 200px;
+
+}
+
+.form-box dd {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.form-box dd span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.submit{
+    width: 300px;
+    height: 60px;
+    background: yellow;
+    margin: 60px auto;
+    transition: all 300ms 0s ease;
+}
+
+.submit p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+
+.footer{
+    text-align: center;
+    
+    background: gray;
+    margin: 30px auto;
+    height: 60px;
+}
+
+.footer p{
+    padding-top: 21px;
+    color: white;
+}
+
+.name {
+    width: 570px;
+    height: 46px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    /* border: solid; */
+    padding-top: 9px;
+}
+
+.kana {
+    width: 570px;
+    height: 36px;
+    border-bottom: 1px solid;
+    /* border-top: 1px solid; */
+    /* border: solid; */
+    padding-top: 0px;
+}
+
+.add {
+    width: 570px;
+    height: 36px;
+    border-bottom: 1px solid;
+    /* border-top: 1px solid; */
+    /* border: solid; */
+    padding-top: 0px;
+}
+.douki {
+        width: 570px;
+        height: 132px;
+        /* border-bottom: 1px solid; */
+        /* border-top: 1px solid; */
+        /* border: solid; */
+        padding-top: 7px;
+}
+
+.sho {
+    width: 570px;
+    height: 155px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    /* border: solid; */
+    padding-top: 6px;
+}
+
+dt + dd{
+    border-left: 1px solid #333;
+    min-height: 148px;
+}
+.kik {
+    width: 570px;
+    height: 36px;
+    border-bottom: 1px solid;
+    /* border-top: 1px solid; */
+    /* border: solid; */
+    padding-top: 0px;
+
+}
+
+/* CSSアニメーション */
+
+.more:hover{
+    background: red;
+}
+
+.submit:hover{
+    background: blue;
+}
+
+
+
+
+/* ページトップボタン */
+
+.pageTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+
+
+
+.pageTop a {
+    display: block;
+    z-index: 999;
+    padding: 15px 0 0 0px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    opacity: 1.0;
+    transition: 0.3s ease;
+  }
+
+
+.pageTop a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+  }
+
+
